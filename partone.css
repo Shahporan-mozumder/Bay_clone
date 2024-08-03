@@ -1,0 +1,277 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+/* FIRST PART */
+#first {
+        background-color: #D8E1E6;
+
+}
+
+#num {
+        margin-left: 200px;
+}
+
+#second {
+        background-color: #F1F5F5;
+}
+
+#baylogo {
+        height: 80px;
+        width: 150px;
+
+}
+
+#scndoptions li a {
+        text-decoration: none;
+        color: black;
+
+}
+
+#scndoptions li a:hover {
+        width: fit-content;
+        color: #7F8181;
+
+        border-bottom: 3px #C53636 solid !important;
+}
+
+#scndoptions li:hover #ulopt {
+        display: block;
+
+
+
+}
+
+#ulopt {
+        z-index: 1;
+        transition: 2s;
+        display: none;
+        margin-left: -5px;
+        padding-top: 7px;
+        position: absolute;
+        /* border: red 2px solid; */
+        width: 175px;
+        background-color: #FFFFFF;
+}
+
+#ulopt li {
+        padding: 5px;
+        margin-left: 10px;
+
+}
+
+#ulopt li:hover {
+
+        width: fit-content;
+        color: #7F8181;
+        border-bottom: 4px #C53636 solid;
+}
+
+#srcbr {
+        height: 50px;
+
+
+}
+
+#srcbtn {
+
+
+        border: 5px #dee2e6 solid;
+        margin-left: -8px !important;
+        height: 50px;
+        width: 70px;
+}
+
+#srcimg {
+        height: 20px;
+        width: 20px;
+        padding: 2px;
+
+}
+
+#bag:hover section {
+        display: block;
+}
+
+#bag section {
+        border-radius: 10px;
+        z-index: 1;
+        display: none;
+        border-radius: 10px;
+        border: 2px grey solid;
+        margin-left: -100px;
+        position: absolute;
+        width: 450px;
+        background-color: #FFFFFF;
+        ;
+}
+
+#bag section h5 {
+        width: fit-content;
+        margin-left: 100px;
+}
+
+
+#third {
+        margin-top: -15px !important;
+}
+
+#third .carousel-indicators button {
+        margin-top: -25px !important;
+}
+
+#fourth {
+        background-color: #7F8181;
+        position: absolute;
+
+}
+
+.messenger {
+        /* background-color: #3387de; */
+        width: 50px;
+        height: 45px;
+        border-radius: 10px;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        right: 0;
+        margin-bottom: 60px;
+        border: #3387de 1px solid;
+
+        margin-right: 50px;
+        background-color: #0A7CFF;
+
+
+
+}
+
+#mess1 {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100px;
+}
+
+.messenger a {
+        /* border: red 1px solid;? */
+
+
+        height: 100%;
+        text-decoration: none;
+
+        font-size: 30px;
+
+
+
+
+}
+
+
+
+.popup01 {
+display: none;
+        position: fixed;
+        background-color: #FFFFFF;
+        /* border: 5px green solid; */
+        width: fit-content;
+        height: 350px;
+        width: 400px;
+        border-radius: 20px;
+        right: 0;
+        z-index: 1;
+        margin-top: -450px;
+        margin-right: 50px;
+}
+.messenger:hover ~ .popup01 {
+        display: block;
+        /* background-color: #C53636; */
+}
+
+.popup1 {
+        border-radius: 15px;
+
+        display: flex;
+        justify-content: space-around;
+}
+
+
+.popup1 img {
+        height: 50px;
+        width: 60px;
+}
+
+.circle-singleline {
+        margin: 20px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        background: #f0f0f0;
+        color: black;
+}
+
+/* SECOND PART */
+
+
+
+#sticker img{
+        width:100% ;
+}
+
+
+#collection{
+        background-color: #F5F5F5;
+box-shadow: grey 2px 3px 2px 4px;
+}
+
+#up{
+        display: flex;
+        justify-content: space-between;
+}
+#up a{
+        text-decoration: dotted;
+}
+#up a span{
+        color: #18c5c3;
+        font-size: smaller;
+        
+
+}
+#up a:hover span{
+        color:#0d6d5f ;
+
+}
+#cards{
+        margin-bottom: 50px !important;
+}
+
+#card:hover{
+        box-shadow: 0 0 5px 5px rgb(227, 206, 206);
+}
+
+/* last end */
+
+#last{
+        background-color: #F1F5F5;
+}
+#social i{
+        color: #21125E;
+        
+        /* border-radius: 100px !important; */
+        /* border: 5px red solid; */
+        overflow: hidden;
+        
+}
+#social i:hover{
+        color: #746D9A;     
+}
+#last span:hover{
+        color: coral !important;
+
+}
+#last span{
+        font-size: 13px;
+}
